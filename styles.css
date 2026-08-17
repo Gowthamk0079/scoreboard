@@ -38,10 +38,7 @@ h3 {
   height: 120px;
   width: 155px;
   color: red;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   font-size: 90px;
   line-height: 127px;
   font-family: "timer";
