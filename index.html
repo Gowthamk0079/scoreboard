@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="score-home">
+        <h3>HOME</h3>
+        <div class="score-board" id="home-score"></div>
+        <div class="buttons">
+          <button id="inc1-btn" class="add-btn" onclick="add1ForHome()">
+            +1
+          </button>
+          <button id="inc2-btn" class="add-btn" onclick="add2ForHome()">
+            +2
+          </button>
+          <button id="inc3-btn" class="add-btn" onclick="add3ForHome()">
+            +3
+          </button>
+        </div>
+      </div>
+      <div id="score-guest">
+        <h3>GUEST</h3>
+        <div class="score-board" id="guest-score"></div>
+        <div class="buttons">
+          <button id="inc1-btn" class="add-btn" onclick="add1ForGuest()">
+            +1
+          </button>
+          <button id="inc2-btn" class="add-btn" onclick="add2ForGuest()">
+            +2
+          </button>
+          <button id="inc3-btn" class="add-btn" onclick="add3ForGuest()">
+            +3
+          </button>
+        </div>
+      </div>
+
+      <div class="reset">
+        <button class="reset-btn" onclick="resetScore()">New Game</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

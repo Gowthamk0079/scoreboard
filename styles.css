@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "timer";
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  height: 560px;
+  background-color: #dceebd;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 440px;
+  background-color: #1b244a;
+  align-items: center;
+  margin-top: 60px 0;
+  border: 7px solid white;
+  border-radius: 15px;
+}
+h3 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #eeeeee;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.score-board {
+  background-color: #080001;
+  height: 120px;
+  width: 155px;
+  color: red;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  line-height: 127px;
+  font-family: "timer";
+}
+
+#guest-score {
+  margin: 0;
+}
+
+.buttons {
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "timer";
+}
+
+.add-btn {
+  color: #9aabd8;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 12px;
+  border: 3px solid #9aabd8;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.reset-btn {
+  color: #9aabd8;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 12px;
+  border: 3px solid #9aabd8;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+}
